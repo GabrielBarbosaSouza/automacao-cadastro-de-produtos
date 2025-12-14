@@ -2,7 +2,7 @@ import pyautogui
 import time
 import pandas
 
-#Nada foi feito com IA, eu faço comentários apenas para organizar cada passo do meu código.
+# Nada foi feito com IA, eu faço comentários apenas para organizar cada passo do meu código.
 
 # Passo 1: Abrir o site https://dlp.hashtagtreinamentos.com/python/intensivao/login
 # Passo 2: Fazer login
