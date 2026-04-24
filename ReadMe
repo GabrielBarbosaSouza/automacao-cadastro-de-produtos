@@ -1,0 +1,97 @@
+# Automação de Cadastro de Produtos
+
+Automação em Python para cadastro automático de produtos a partir de uma planilha CSV, eliminando tarefas manuais e repetitivas por meio de controle de teclado e mouse com PyAutoGUI.
+
+---
+
+## Sobre o Projeto
+
+Este projeto automatiza o processo de cadastro de produtos em sistemas que não possuem integração direta com importação de dados. A automação lê as informações de uma planilha CSV e preenche os campos do sistema automaticamente, simulando as ações de um usuário humano.
+
+**Problema que resolve:** cadastrar dezenas ou centenas de produtos manualmente é um processo lento e suscetível a erros humanos. Com essa automação, o processo é feito em segundos, com precisão e sem intervenção manual.
+
+---
+
+## Tecnologias Utilizadas
+
+| Tecnologia | Finalidade |
+|------------|------------|
+| Python 3 | Linguagem principal |
+| PyAutoGUI | Controle de teclado e mouse |
+| Pandas | Leitura e manipulação da planilha CSV |
+
+---
+
+## Como Executar
+
+### Pré-requisitos
+
+- Python 3 instalado
+- Instalar as dependências:
+
+```bash
+pip install pyautogui pandas
+```
+
+### Passos
+
+1. Clone o repositório:
+
+```bash
+git clone https://github.com/GabrielBarbosaSouza/automacao-cadastro-de-produtos.git
+```
+
+2. Acesse a pasta do projeto:
+
+```bash
+cd automacao-cadastro-de-produtos
+```
+
+3. Adicione os dados dos produtos no arquivo CSV (veja o formato abaixo).
+
+4. Abra o sistema onde os produtos serão cadastrados e deixe-o na tela inicial de cadastro.
+
+5. Execute o script:
+
+```bash
+python main.py
+```
+
+> ⚠️ **Atenção:** não mexa no mouse ou teclado enquanto a automação estiver em execução.
+
+---
+
+## Formato do CSV
+
+O arquivo CSV deve seguir a estrutura abaixo:
+
+```
+codigo,nome,preco,quantidade,categoria
+001,Produto Exemplo,19.90,100,Eletrônicos
+002,Outro Produto,49.90,50,Acessórios
+```
+
+---
+
+## omo Funciona
+
+1. O script lê o arquivo CSV com o Pandas e carrega todos os produtos em memória.
+2. Para cada linha da planilha, o PyAutoGUI simula os cliques e digitações necessários para preencher os campos do formulário de cadastro.
+3. O processo se repete em loop até que todos os produtos sejam cadastrados.
+
+---
+
+## Aprendizados
+
+- Leitura e manipulação de dados com **Pandas**
+- Controle de teclado e mouse com **PyAutoGUI**
+- Estruturas de repetição (`for`) aplicadas à automação
+- Redução de tarefas manuais repetitivas com Python
+
+---
+
+## Autor
+
+**Gabriel Barbosa Souza**  
+Auxiliar de TI | Estudante de Ciências da Computação — UNIP  
+[GitHub](https://github.com/GabrielBarbosaSouza)
