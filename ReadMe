@@ -1,10 +1,10 @@
-# Automação de Cadastro de Produtos
+# 🤖 Automação de Cadastro de Produtos
 
 Automação em Python para cadastro automático de produtos a partir de uma planilha CSV, eliminando tarefas manuais e repetitivas por meio de controle de teclado e mouse com PyAutoGUI.
 
 ---
 
-## Sobre o Projeto
+## 📋 Sobre o Projeto
 
 Este projeto automatiza o processo de cadastro de produtos em sistemas que não possuem integração direta com importação de dados. A automação lê as informações de uma planilha CSV e preenche os campos do sistema automaticamente, simulando as ações de um usuário humano.
 
@@ -12,7 +12,7 @@ Este projeto automatiza o processo de cadastro de produtos em sistemas que não 
 
 ---
 
-## Tecnologias Utilizadas
+## ⚙️ Tecnologias Utilizadas
 
 | Tecnologia | Finalidade |
 |------------|------------|
@@ -22,7 +22,7 @@ Este projeto automatiza o processo de cadastro de produtos em sistemas que não 
 
 ---
 
-## Como Executar
+## 🚀 Como Executar
 
 ### Pré-requisitos
 
@@ -61,7 +61,7 @@ python main.py
 
 ---
 
-## Formato do CSV
+## 📄 Formato do CSV
 
 O arquivo CSV deve seguir a estrutura abaixo:
 
@@ -73,7 +73,7 @@ codigo,nome,preco,quantidade,categoria
 
 ---
 
-## omo Funciona
+## 🔄 Como Funciona
 
 1. O script lê o arquivo CSV com o Pandas e carrega todos os produtos em memória.
 2. Para cada linha da planilha, o PyAutoGUI simula os cliques e digitações necessários para preencher os campos do formulário de cadastro.
@@ -81,7 +81,7 @@ codigo,nome,preco,quantidade,categoria
 
 ---
 
-## Aprendizados
+## 📚 Aprendizados
 
 - Leitura e manipulação de dados com **Pandas**
 - Controle de teclado e mouse com **PyAutoGUI**
@@ -90,7 +90,7 @@ codigo,nome,preco,quantidade,categoria
 
 ---
 
-## Autor
+## 👨‍💻 Autor
 
 **Gabriel Barbosa Souza**  
 Auxiliar de TI | Estudante de Ciências da Computação — UNIP  
