@@ -1,10 +1,10 @@
-# Automação de Cadastro de Produtos
+# AUTOMAÇÃO DE CADASTRO DE PRODUTOS
 
 Automação em Python para cadastro automático de produtos a partir de uma planilha CSV, eliminando tarefas manuais e repetitivas por meio de controle de teclado e mouse com PyAutoGUI.
 
 ---
 
-## Sobre o Projeto
+## SOBRE O PROJETO
 
 Este projeto automatiza o processo de cadastro de produtos em sistemas que não possuem integração direta com importação de dados. A automação lê as informações de uma planilha CSV e preenche os campos do sistema automaticamente, simulando as ações de um usuário humano.
 
@@ -12,7 +12,7 @@ Este projeto automatiza o processo de cadastro de produtos em sistemas que não 
 
 ---
 
-## Tecnologias Utilizadas
+## TECNOLOGIAS UTILIZADAS
 
 | Tecnologia | Finalidade |
 |------------|------------|
@@ -22,9 +22,9 @@ Este projeto automatiza o processo de cadastro de produtos em sistemas que não 
 
 ---
 
-## Como Executar
+## COMO EXECUTAR
 
-### Pré-requisitos
+### PRÉ-REQUISITOS
 
 - Python 3 instalado
 - Instalar as dependências:
@@ -33,7 +33,7 @@ Este projeto automatiza o processo de cadastro de produtos em sistemas que não 
 pip install pyautogui pandas
 ```
 
-### Passos
+### PASSOS
 
 1. Clone o repositório:
 
@@ -57,11 +57,11 @@ cd automacao-cadastro-de-produtos
 python main.py
 ```
 
-> ⚠️ **Atenção:** não mexa no mouse ou teclado enquanto a automação estiver em execução.
+> **Atenção:** não mexa no mouse ou teclado enquanto a automação estiver em execução.
 
 ---
 
-## Formato do CSV
+## FORMATO DO CSV
 
 O arquivo CSV deve seguir a estrutura abaixo:
 
@@ -73,7 +73,7 @@ codigo,nome,preco,quantidade,categoria
 
 ---
 
-## Como Funciona
+## COMO FUNCIONA
 
 1. O script lê o arquivo CSV com o Pandas e carrega todos os produtos em memória.
 2. Para cada linha da planilha, o PyAutoGUI simula os cliques e digitações necessários para preencher os campos do formulário de cadastro.
@@ -81,7 +81,7 @@ codigo,nome,preco,quantidade,categoria
 
 ---
 
-## Aprendizados
+## APRENDIZADOS
 
 - Leitura e manipulação de dados com **Pandas**
 - Controle de teclado e mouse com **PyAutoGUI**
@@ -90,7 +90,7 @@ codigo,nome,preco,quantidade,categoria
 
 ---
 
-## 👨‍💻 Autor
+## AUTOR
 
 **Gabriel Barbosa Souza**  
 Auxiliar de TI | Estudante de Ciências da Computação — UNIP  
